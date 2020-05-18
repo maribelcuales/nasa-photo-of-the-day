@@ -1,6 +1,6 @@
-import React from "react"; 
+import React, {useState} from "react"; 
 
-function NasaPhotoData() {
+function NasaPhotoData() {	
   return (
 		<div className="container">
 			<h1>Nasa Photo of the Day</h1>
