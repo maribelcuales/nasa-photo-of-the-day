@@ -6,3 +6,5 @@ const NasaPhotoCard = props => {
 
 			</div>;  
 };
+
+export default NasaPhotoCard; 
