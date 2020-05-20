@@ -1,4 +1,5 @@
-import React, {useState, useEffect} from "react"; 
+import React, {useState, useEffect} from "react";
+import axios from "axios";
 
 function NasaPhotoData() {	
 	const [photo, setPhoto] = useState([]);
@@ -16,6 +17,7 @@ function NasaPhotoData() {
   return (
 		<div className="container">
 			{/* <h1>Nasa Photo of the Day</h1> */}
+
 		</div>
 	)};
 
