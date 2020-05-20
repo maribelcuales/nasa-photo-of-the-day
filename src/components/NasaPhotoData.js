@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
+import NasaPhotoCard from "./NasaPhotoCard";
 
 function NasaPhotoData() {	
 	const [photo, setPhoto] = useState([]);
@@ -17,7 +18,7 @@ function NasaPhotoData() {
   return (
 		<div className="container">
 			{/* <h1>Nasa Photo of the Day</h1> */}
-
+			<NasaPhotoCard /> 
 		</div>
 	)};
 
