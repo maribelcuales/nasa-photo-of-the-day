@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import NasaPhotoHeader from "./NasaPhotoHeader"; 
 import NasaPhotoData from "./components/NasaPhotoData";
+import NasaPhotoFooter from "./components/NasaPhotoFooter";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       </p>
       <NasaPhotoHeader />
       <NasaPhotoData />
+      <NasaPhotoFooter /> 
     </div>
   );
 }
