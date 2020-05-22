@@ -8,9 +8,10 @@ function NasaPhotoData() {
 
 	useEffect(() => {
 		axios
-		.get('')
+		.get('https://api.nasa.gov/planetary/apod?api_key=ZpebsFfzozubPgYXkFi5TckqXCf0JsEoofTxqzoZ')
 		.then(response => {
-			console.log(response);
+			console.log(response.data);
+			setPhoto(reponse.data);
 		})
 		.catch(error => {
 			console.log('there was an error', error)
