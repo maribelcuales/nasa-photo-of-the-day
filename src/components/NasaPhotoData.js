@@ -20,7 +20,17 @@ function NasaPhotoData() {
   return (
 		<div className="container">
 			{/* <h1>Nasa Photo of the Day</h1> */}
-			<NasaPhotoCard /> 
+			{photo.map(data => {
+				return (
+					<NasaPhotoCard
+						key={data.id}
+						date={data.date}
+						title={data.title}
+						desc={data.explanation}
+						url={data.hdurl}
+					/>
+				)
+			})}
 			<NasaPhotoBottomNav />
 		</div>
 	)};
