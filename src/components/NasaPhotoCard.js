@@ -5,10 +5,10 @@ import "./styles.css";
 const NasaPhotoCard = props => {
 		return (
 			<div className="photo-card">
-				<div className="photo-of-the-day">
-					<img src={props.url} alt="nasa-photo-of-the-day" /> 
+				<div className="photo-of-the-day-div">
+					<img className="photo-of-the-day" src={props.url} alt="nasa-photo-of-the-day" /> 
 				</div>
-				<NasaPhotoGallery />
+				{/* <NasaPhotoGallery /> */}
 			</div>
 		)};
 
