@@ -1,5 +1,6 @@
 import React from "react";
 import NasaPhotoGallery from "./NasaPhotoGallery";
+import "./styles.css"; 
 
 const NasaPhotoCard = props => {
 		return (
