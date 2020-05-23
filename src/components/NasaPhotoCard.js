@@ -5,9 +5,11 @@ import "./styles.css";
 const NasaPhotoCard = props => {
 		return (
 			<div className="photo-card">
-				<img className="photo-of-the-day" src={props.url} alt="nasa-photo-of-the-day" />
-				<NasaPhotoGallery /> 
-			</div>  
+				<div className="photo-of-the-day">
+					<img src={props.url} alt="nasa-photo-of-the-day" /> 
+				</div>
+				<NasaPhotoGallery />
+			</div>
 		)};
 
 export default NasaPhotoCard; 
