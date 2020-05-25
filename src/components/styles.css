@@ -41,18 +41,19 @@
 
 .footer-div {
 	display: flex;
-	background-color: lavender;
+	background-color: lightslategray;
 	padding: 20px; 
+	font-weight: 200px;
 }
 
 .footer-logo {
 	display: flex;
-	background-color: grey;
 	width: 200px;
 	height: 100px; 
 }
 
 .footer-contact{
-	background-color: khaki;
-	display: flex;
+	width: 350px;
+	text-align: left;
+	padding: 0px;
 }
