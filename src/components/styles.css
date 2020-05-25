@@ -29,5 +29,11 @@
 .header-logo {
 	width: 500px;
 	height: 250px;
-	padding-top: 50px;
+	padding-top: 25px;
+}
+
+.title-header {
+	font-family: Helvetica;
+	color: white; 
+	padding-bottom: 20px; 
 }
