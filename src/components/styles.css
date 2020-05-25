@@ -39,7 +39,20 @@
 	padding-bottom: 20px; 
 }
 
+.footer-div {
+	display: flex;
+	background-color: lavender;
+	padding: 20px; 
+}
+
 .footer-logo {
+	display: flex;
+	background-color: grey;
 	width: 200px;
 	height: 100px; 
+}
+
+.footer-contact{
+	background-color: khaki;
+	display: flex;
 }
