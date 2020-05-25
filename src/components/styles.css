@@ -1,7 +1,7 @@
 .photo-card {
 	display: flex;
 	margin: auto;
-	background-color: papayawhip; 
+	/* background-color: 152238;  */
 	width: 100%;
 	height: 100%;
 }
@@ -10,7 +10,7 @@
 	display: inline-block;
 	position: relative;
 	text-align: center;
-	background-color: lightblue;
+	/* background-color: lightblue; */
 	margin: auto;
 	width: 80%;
 	height: 80%; 
@@ -21,7 +21,8 @@
 	display: inline-block;
 	position: relative;
 	text-align: center;
-	padding: 100px;
+	padding-top: 25px;
+	padding-bottom: 60px;
 	max-width: 80%;
 	max-height: 80%;
 }
