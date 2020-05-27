@@ -10,9 +10,9 @@ const NasaPhotoCard = props => {
 				</div>
 				{/* <NasaPhotoGallery /> */}
 				<div className="card-details">
-					<h3>{props.title} </h3>
+					<h2>{props.title} </h2>
 					<p>Date: {props.date} </p>
-					<p>Description: {props.desc} </p>
+					<p>{props.desc} </p>
 				</div>
 			</div>
 		)};
