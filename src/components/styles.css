@@ -32,7 +32,14 @@
 	display: flex;
 	flex-direction: column;
 	color: white;
-	flex-wrap: wrap;
+	margin: auto;
+	width: 80%;
+	height: 80%;
+	padding-bottom: 20px;
+}
+
+.card-details p {
+	text-align: justify;
 }
 
 .header-logo {
