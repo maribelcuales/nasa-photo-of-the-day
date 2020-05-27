@@ -9,8 +9,8 @@ const NasaPhotoCard = props => {
 					<img className="photo-of-the-day" src={props.url} alt="nasa-photo-of-the-day" /> 
 				</div>
 				{/* <NasaPhotoGallery /> */}
-				<div>
-					<h3>Title: {props.title} </h3>
+				<div className="card-details">
+					<h3>{props.title} </h3>
 					<p>Date: {props.date} </p>
 					<p>Description: {props.desc} </p>
 				</div>

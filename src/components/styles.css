@@ -1,5 +1,6 @@
 .photo-card {
 	display: flex;
+	flex-direction: column;
 	margin: auto;
 	/* background-color: 152238;  */
 	width: 100%;
@@ -25,6 +26,13 @@
 	padding-bottom: 60px;
 	max-width: 80%;
 	max-height: 80%;
+}
+
+.card-details {
+	display: flex;
+	flex-direction: column;
+	color: white;
+	flex-wrap: wrap;
 }
 
 .header-logo {
