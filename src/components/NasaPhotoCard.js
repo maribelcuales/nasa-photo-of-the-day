@@ -1,7 +1,16 @@
 import React from "react";
 import NasaPhotoGallery from "./NasaPhotoGallery";
 import { Badge } from "reactstrap";
+import styled from "styled-components";
 import "./styles.css"; 
+
+const DateContainer = styled.div`
+	display: flex;	
+	width: 80%;
+	text-align: left;  
+	margin: auto; 
+	padding-bottom: 50px;
+`
 
 const NasaPhotoCard = props => {
 		return (
@@ -12,9 +21,12 @@ const NasaPhotoCard = props => {
 				{/* <NasaPhotoGallery /> */}
 				<div className="card-details">
 					<h2>{props.title} </h2>
-					<p>{props.desc} </p>
-					<Badge className="badge-date" color="primary">Date: {props.date} </Badge>
+					<p className="copyright">Image Credit and Copyright: {props.copyright}</p>
+					<p className="card-content">{props.desc} </p>
 				</div>
+				<DateContainer>
+					<Badge className="badge-date" color="primary">Date: {props.date} </Badge>
+				</DateContainer>
 			</div>
 		)};
 
