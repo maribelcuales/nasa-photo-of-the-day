@@ -1,5 +1,6 @@
 import React from "react";
 import NasaPhotoGallery from "./NasaPhotoGallery";
+import { Badge } from "reactstrap";
 import "./styles.css"; 
 
 const NasaPhotoCard = props => {
@@ -11,8 +12,8 @@ const NasaPhotoCard = props => {
 				{/* <NasaPhotoGallery /> */}
 				<div className="card-details">
 					<h2>{props.title} </h2>
-					<p>Date: {props.date} </p>
 					<p>{props.desc} </p>
+					<Badge className="badge-date" color="primary">Date: {props.date} </Badge>
 				</div>
 			</div>
 		)};
