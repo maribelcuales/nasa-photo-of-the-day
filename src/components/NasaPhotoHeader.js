@@ -8,7 +8,8 @@ const NasaPhotoHeader = props => {
 		// 	<img className="header-logo" src="https://github.com/maribelcuales/nasa-photo-of-the-day/blob/master/assets/nasa-logo.png?raw=true" alt="NASA Logo"/>
 		// 	<h1 className="title-header">NASA Photo of the Day</h1>
 		// </div>
-		<Jumbotron className="header-logo-div">
+
+		<Jumbotron className="jumbotron-div">
 			<img className="header-logo" src="https://github.com/maribelcuales/nasa-photo-of-the-day/blob/master/assets/nasa-logo.png?raw=true" alt="NASA Logo"/>
 			<h1 className="display-3" >NASA Photo of the Day</h1>
 		</Jumbotron>
