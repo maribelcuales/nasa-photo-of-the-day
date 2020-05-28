@@ -42,16 +42,20 @@
 	text-align: justify;
 }
 
+.jumbotron-div {
+	background-color: #152238;
+}
+
 .header-logo {
 	width: 500px;
 	height: 250px;
-	padding-top: 25px;
+	/* padding-top: 25px; */
 }
 
-.title-header {
-	font-family: Helvetica;
-	color: white; 
-	padding-bottom: 20px; 
+.display-3 {
+	/* font-family: Helvetica; */
+	color: #0B3D91; 
+	/* padding-bottom: 20px;  */
 }
 
 .footer-div {
