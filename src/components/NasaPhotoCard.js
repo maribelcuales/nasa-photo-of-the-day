@@ -26,6 +26,7 @@ const NasaPhotoCard = props => {
 				</div>
 				<DateContainer>
 					<Badge className="badge-date" color="primary">Date: {props.date} </Badge>
+					<Badge className="badge-credit" color="primary">Content and Image Credit: NASA</Badge>
 				</DateContainer>
 			</div>
 		)};
