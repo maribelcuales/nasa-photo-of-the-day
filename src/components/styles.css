@@ -5,13 +5,10 @@
 .header-logo {
 	width: 500px;
 	height: 250px;
-	/* padding-top: 25px; */
 }
 
 .display-4 {
-	/* font-family: Helvetica; */
 	color: #0B3D91; 
-	/* padding-bottom: 20px;  */
 }
 
 .photo-card {
@@ -60,13 +57,6 @@
 	text-align: justify;
 	padding-bottom: 10px;
 }
-
-/* .bottom-nav-container {
-	display: flex; 
-	width: 100%;
-	background-color: lightyellow;
-	justify-content: space-between;
-} */
 
 .button1-style {
 	margin-right: 30px;

@@ -6,7 +6,7 @@ import "./styles.css";
 const ButtonContainer = styled.div`
 	display: inline-block;
 	width: 80%;
-	padding-bottom: 80px;
+	padding-bottom: 40px;
 `
 const NasaPhotoBottomNav = props => {
 	return (
