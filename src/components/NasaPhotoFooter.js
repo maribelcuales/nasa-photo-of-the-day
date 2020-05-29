@@ -10,6 +10,7 @@ const NasaPhotoFooter = props => {
 			<div className="footer-contact">
 				<p>National Aeronautics and Space Administration</p>
 				<p>NASA Official: Brian Dunbar</p>
+				<a href="https://www.nasa.gov/"> Visit NASA </a>
 			</div>
 		</div>
 	);

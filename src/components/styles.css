@@ -73,20 +73,27 @@
 }
 
 .footer-div {
+	width: 100%;
+	text-align: center;
 	display: flex;
-	background-color: rgb(99, 113, 128);
-	padding: 20px; 
+	margin: auto;
+	/* background-color: rgb(99, 113, 128); */
+	background-color: #bdcebe;
+	padding-top: 20px; 
+	padding-left: 100px;
+	padding-bottom: 20px;
 	font-weight: 200px;
 }
 
 .footer-logo {
 	display: flex;
-	width: 200px;
-	height: 100px; 
+	width: 220px;
+	height: 120px; 
 }
 
 .footer-contact{
 	width: 350px;
 	text-align: left;
-	padding: 0px;
+	padding-top: 20px;
+	font-weight: 400; 
 }
