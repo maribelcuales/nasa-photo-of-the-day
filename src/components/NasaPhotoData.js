@@ -21,7 +21,7 @@ function NasaPhotoData() {
   return (
 		<div className="photo-data-container">
 			<NasaPhotoCard key={nasaPhoto.id} date={nasaPhoto.date} title={nasaPhoto.title} desc={nasaPhoto.explanation} url={nasaPhoto.hdurl} copyright={nasaPhoto.copyright}/>
-			<NasaPhotoBottomNav />
+			<NasaPhotoBottomNav hdUrl={nasaPhoto.hdurl}/>
 		</div>
 	)};
 
