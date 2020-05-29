@@ -9,7 +9,7 @@ const DateContainer = styled.div`
 	width: 80%;
 	text-align: left;  
 	margin: auto; 
-	padding-bottom: 50px;
+	padding-bottom: 20px;
 `
 
 const NasaPhotoCard = props => {
