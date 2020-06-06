@@ -63,15 +63,20 @@
 }
 
 .button1-style {
-	margin-right: 30px;
 	margin-top: 20px;
 }
 
 .button2-style {
+	margin-left: 30px;
 	margin-top: 20px;
 }
 
 .button3-style {
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+.button4-style {
 	margin-left: 30px;
 	margin-top: 20px;
 }
