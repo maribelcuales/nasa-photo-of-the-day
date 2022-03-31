@@ -1,14 +1,12 @@
-.jumbotron-div {
-	background-color: #152238;
-}
-
 .header-logo {
 	width: 500px;
 	height: 250px;
 }
 
-.display-4 {
+.title-header {
 	color: #0B3D91; 
+	font-size: 56px;
+	font-weight: 300px; 
 }
 
 .photo-card {
